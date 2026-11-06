@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Café Macizo</title>
+</head>
+<body>
+    <header class="header">
+        <div class="contenedor header_barra">
+            <a class="logo" href="inicio">Café Macizo</a>
+            <nav class="nav" aria-label="Principal">
+                <a class="nav_enlace" href="productos">Productos</a>
+                <a class="nav_enlace" href="paleta">Paleta</a>
+                <a class="nav_enlace" href="contacto">Contacto</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero" id="inicio">
+            <div class="contenedor">
+                <h1>Café de altura, cultivado en el Macizo Colombiano</h1>
+                <p>Granos seleccionados a mano por familias caficultoras del Cauca. Tostión artesanal, sabor con notas de panela y frutos rojos.</p>
+                <div class="hero_acciones">
+                    <a class="btn btn-acento" href="productos">Ver Productos</a>
+                    <a class="btn btn-borde" href="contacto">Escribenos</a>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="productos">
+            <div class="contenedor">
+                <h2>Nuestros Productos</h2>
+                <div class="tarjetas">
+                    <article class="tarjeta">
+                        <img class="tarjeta_img" src="img/Cafe2.jpg" alt="Granos de café tostado">
+                        <div class="tarjeta_cuerpo">
+                            <h3>Café en grano</h3>
+                            <p>Bolsa de 500g. Ideal para moler en casa</p>
+                            <p class="precio">$32.000</p>
+                            <a class="btn" href="#contacto">Comprar</a>
+                        </div>
+                    </article>
+                    <article class="tarjeta">
+                        <img class="tarjeta_img" src="img/Cafe1.jpg" alt="Monticulo de café molido">
+                        <div class="tarjeta_cuerpo">
+                            <h3>Café molido</h3>
+                            <p>Molienda media para greca o filtro.</p>
+                            <p class="precio">$28.000</p>
+                            <a class="btn" href="#contacto">Comprar</a>
+                        </div>
+                    </article>
+                    <article class="tarjeta">
+                        <img class="tarjeta_img" src="img/Cafe3.jpg" alt="Taza de café caliente">
+                        <div class="tarjeta_cuerpo">
+                            <h3>Kit de cata</h3>
+                            <p>Tres origines del Cauca para comprar.</p>
+                            <p class="precio">$45.000</p>
+                            <a class="btn" href="#contacto">Comprar</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="seccion seccion--alterna" id="paleta">
+      <div class="contenedor">
+        <h2>Nuestra paleta de colores</h2>
+        <p class="intro">Partimos de un color base (café tostado) y en HSL variamos solo la luminosidad para obtener tonos; luego sumamos un secundario y un acento.</p>
+        <ul class="paleta">
+          <li class="muestra"><span class="muestra_color muestra_color-p900"></span><strong>Primario 900</strong><small>#372010</small></li>
+          <li class="muestra"><span class="muestra_color muestra_color-p700"></span><strong>Primario 700</strong><small>#633D21</small></li>
+          <li class="muestra"><span class="muestra_color muestra_color-p500"></span><strong>Primario 500</strong><small>#9B633B</small></li>
+          <li class="muestra"><span class="muestra_color muestra_color-p300"></span><strong>Primario 300</strong><small>#CEA37E</small></li>
+          <li class="muestra"><span class="muestra_color muestra_color-p100"></span><strong>Primario 100</strong><small>#F2E6D9</small></li>
+          <li class="muestra"><span class="muestra_color muestra_color-sec"></span><strong>Secundario</strong><small>#326744</small></li>
+          <li class="muestra"><span class="muestra_color muestra_color-acento"></span><strong>Acento</strong><small>#F4AF25</small></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="contacto">
+    <div class="contenedor">
+      <p>Café Macizo - Popayán, Cauca - contacto@cafemacizo.co</p>
+      <p class="footer_nota">Proyecto de practica SENA - Unidades de medida en CSS</p>
+    </div>
+  </footer>
+</body>
+</html>
